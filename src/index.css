@@ -820,7 +820,7 @@ header::after {
 
   .nameAdvertisement h1 {
     display: inline-block;
-    font-size: 5rem;
+    font-size: 3rem;
     margin: 1rem;
   }
 
@@ -1175,7 +1175,9 @@ header::after {
   .form__Message {
     color: green;
     margin-left: 6rem;
+
   }
+  
 }
 
 
