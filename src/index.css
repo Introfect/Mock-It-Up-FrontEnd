@@ -1216,18 +1216,18 @@ header::after {
 @media (max-height: 700px){
   
   .form-overlay {
-    height: 120vh;
+    height: 130vh;
     
   }
 
   .about__section{
-    height:130vh;
-  }
-  .father{
     height:140vh;
   }
+  .father{
+    height:150vh;
+  }
   .footer-container{
-    height:45vh;
+    height:46vh;
   }
 }
 
@@ -1257,22 +1257,22 @@ header::after {
 @media (max-height: 500px){
   
   .form-overlay {
-    height: 150vh;
+    height: 220vh;
     
   }
 
   .about__section{
-    height:170vh;
+    height:250vh;
   }
 
   .father{
-    height:150vh;
+    height:200vh;
   }
   .contact-container{
-    height: 120vh;
+    height: 1900vh;
   }
   .footer-container{
-    height:60vh;
+    height:100vh;
   }
 }
 .rights{
@@ -1291,5 +1291,28 @@ header::after {
 @media(max-width:860px){
   .registration{
     margin-left: 22%;
+  }
+}
+
+
+@media (max-height: 370px){
+  
+  .form-overlay {
+    height: 220vh;
+    
+  }
+
+  .about__section{
+    height:280vh;
+  }
+
+  .father{
+    height:220vh;
+  }
+  .contact-container{
+    height: 190vh;
+  }
+  .footer-container{
+    height:120vh;
   }
 }
