@@ -398,15 +398,17 @@ header::after {
 }
 
 .registration {
+ 
   width: fit-content;
   height: fit-content;
   padding: 1rem;
   margin: 1rem;
   border-radius: 1.5rem;
-  margin-left: 0;
   margin-top: 2rem;
   background-color: var(--primary-color);
-  margin-top: 3.6rem;
+  margin-top: 3rem;
+  margin-left: 30%;
+
 }
 
 .button {
@@ -1284,4 +1286,10 @@ header::after {
 .anss ul li{
   text-decoration: none;
   list-style: none;
+}
+
+@media(max-width:860px){
+  .registration{
+    margin-left: 22%;
+  }
 }
