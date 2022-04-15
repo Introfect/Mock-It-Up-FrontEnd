@@ -25,14 +25,14 @@ function registrationForm() {
                   </h2>
                 </div>
               </li>
-              <li>
+              {/* <li>
                 <div className="h2__holder">
                   <h2>
                     Additionally, you can easily choose the topics and areas you
                     want to test yourself in.
                   </h2>
                 </div>
-              </li>
+              </li> */}
               <li>
                 <div className="h2__holder">
                   <h2>
