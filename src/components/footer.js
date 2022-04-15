@@ -15,10 +15,10 @@ function footer() {
       <div className="liner"></div>
       <div className="linker">
         <div className="col-1">
-          <a href="#mainpage-id" className="navbar__footer-links">
+          <a href="#mainpage-id" className="navbar__footer-links home" >
             Home
           </a>
-          <a href="#about-tag" className="navbar__footer-links">
+          <a href="#about-tag" className="navbar__footer-links about">
             About
           </a>
         </div>
@@ -57,6 +57,7 @@ function footer() {
             </a>
           </div>
           <div className="social__icons">
+          
             <a href="https://twitter.com/MockIt_Up" target="_blank">
               <Icon.Twitter size="2rem" />
             </a>
