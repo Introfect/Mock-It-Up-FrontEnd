@@ -36,7 +36,7 @@ function footer() {
       <div className="social linker-1">
         <div className="social__element">
           <Icon.Mail />
-          <a href="#">
+          <a href="mailto: mockitup.services@gmail.com">
             <span className="link__description">
               mockitup.services@gmail.com
             </span>

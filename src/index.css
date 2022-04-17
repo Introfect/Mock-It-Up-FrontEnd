@@ -364,6 +364,7 @@ header::after {
 
 /* main page section starts */
 
+
 .grid {
   /* transform: translateY(-50px); */
   margin: 5rem;
@@ -399,8 +400,7 @@ header::after {
 }
 
 .registration {
- 
-  width: fit-content;
+ width: fit-content;
   height: fit-content;
   padding: 1rem;
   margin: 1rem;
@@ -415,10 +415,14 @@ header::after {
   text-decoration: none;
   font-size: 1.5rem;
   color: black;
+  font-size: 1.4rem;
+  margin-left: 0;
+  padding: 1rem;
 }
 .quesn-pic {
   transform: translateX(-50%);
 }
+
 
 /* main page section ends */
 
@@ -442,7 +446,7 @@ header::after {
     margin-bottom: 5rem;
   }
   .registration {
-    padding: 1rem;
+    padding: 0.5rem;
   }
   .quesn-pic {
     margin-right: 50%;
@@ -1184,12 +1188,6 @@ header::after {
   
 }
 
-@media (min-width:730px){
-  .button{
-    margin-left:50%;
-    transform: translateX(-50%);
-  }
-}
 
 @media (max-height: 880px){
   .footer-container{
